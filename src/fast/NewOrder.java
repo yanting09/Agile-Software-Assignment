@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package fastdeliveryman;
+package fast;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -353,7 +353,7 @@ public class NewOrder extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton8ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        String foodName = "Curry Mee";
+        String foodName = "Curry";
         double price = 4.00;
         String qty = (String) jComboBox11.getSelectedItem();
         DefaultTableModel model = (DefaultTableModel) jTable1.getModel();
